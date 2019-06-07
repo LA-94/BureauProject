@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorMainBackground">
+
+        <RadioGroup
+            android:id="@+id/published_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/published_all_time_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:layout_marginBottom="@dimen/offsetDimen"
+                android:background="@drawable/field_item"
+                android:checked="true"
+                android:text="@string/published_for_all_time"
+                android:textColor="@color/colorItemText"
+                android:textSize="@dimen/textDefaultDimen" />
+
+            <RadioButton
+                android:id="@+id/published_7_days_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:layout_marginBottom="@dimen/offsetDimen"
+                android:background="@drawable/field_item"
+                android:text="@string/published_in_7_days"
+                android:textColor="@color/colorItemText"
+                android:textSize="@dimen/textDefaultDimen" />
+
+            <RadioButton
+                android:id="@+id/published_3_days_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:layout_marginBottom="@dimen/offsetDimen"
+                android:background="@drawable/field_item"
+                android:text="@string/published_in_3_days"
+                android:textColor="@color/colorItemText"
+                android:textSize="@dimen/textDefaultDimen" />
+
+            <RadioButton
+                android:id="@+id/published_24_hours_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:layout_marginBottom="@dimen/offsetDimen"
+                android:background="@drawable/field_item"
+                android:text="@string/published_in_24_hours"
+                android:textColor="@color/colorItemText"
+                android:textSize="@dimen/textDefaultDimen" />
+
+
+            <RadioButton
+                android:id="@+id/published_12_hours_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:layout_marginBottom="@dimen/offsetDimen"
+                android:background="@drawable/field_item"
+                android:text="@string/published_in_12_hours"
+                android:textColor="@color/colorItemText"
+                android:textSize="@dimen/textDefaultDimen" />
+
+            <RadioButton
+                android:id="@+id/published_1_hour_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:layout_marginBottom="@dimen/largeOffsetDimen"
+                android:background="@drawable/field_item"
+                android:text="@string/published_in_1_hour"
+                android:textColor="@color/colorItemText"
+                android:textSize="@dimen/textDefaultDimen" />
+
+        </RadioGroup>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/check_btn"
+        style="@style/ExpressButtonStyle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_check" />
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/field_item"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/category_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="8dp"
+        android:textColor="@color/colorItemText"
+        android:textSize="16sp"
+        tools:text="@string/musical_instruments" />
+
+    <ImageView
+        android:id="@+id/category_image_view"
+        android:layout_width="55dp"
+        android:layout_height="70dp"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        tools:src="@drawable/ic_category_clothes" />
+
+</LinearLayout>

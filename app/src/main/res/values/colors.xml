@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#97b3e2</color>
+    <color name="colorPrimaryDark">#233D6A</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorDefaultText">#bbbbbb</color>
+    <color name="colorMainBackground">#efefef</color>
+    <color name="colorItemBackground">#ffffff</color>
+    <color name="colorButtonText">#ffffff</color>
+    <color name="colorItem">#ffffff</color>
+    <color name="colorItemText">#97b3e2</color>
+
+    <color name="colorOcean">#247BDE</color>
+    <color name="colorMagnifier">#FFFF00</color>
+    <color name="colorCable">#FFFF00</color>
+    <color name="colorSuitcase">#FF8800</color>
+    <color name="colorLaptop">#00FFFF</color>
+    <color name="colorPhone">#80FF00</color>
+    <color name="colorSmartPhone">#FF0000</color>
+
+    <color name="colorMenuIcon">#dddddd</color>
+
+</resources>

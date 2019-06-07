@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LayoutBase">
+        <item name="android:background">@color/colorMainBackground</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/largeOffsetDimen</item>
+        <item name="android:paddingBottom">@dimen/largeOffsetDimen</item>
+        <item name="android:paddingStart">@dimen/smallOffsetDimen</item>
+        <item name="android:paddingEnd">@dimen/smallOffsetDimen</item>
+    </style>
+
+    <style name="FirstLevelInnerLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="SecondLevelInnerLayout">
+        <item name="android:layout_width">@dimen/nullDimen</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/smallOffsetDimen</item>
+        <item name="android:layout_marginStart">@dimen/smallOffsetDimen</item>
+        <item name="android:paddingBottom">@dimen/smallOffsetDimen</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/colorItemBackground</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout style="@style/ActionLayoutStyle">
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/ic_disconnect" />
+
+        <TextView
+            android:layout_width="@dimen/imageDimen"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/offsetDimen"
+            android:text="@string/disconnectedString"
+            android:textAlignment="center"
+            android:textColor="@color/colorDefaultText"
+            android:textSize="@dimen/textDefaultDimen" />
+
+        <Button
+            android:id="@+id/update_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="@dimen/lastItemScrollingDimen"
+            android:text="@string/refresh" />
+    </LinearLayout>
+
+</ScrollView>
+

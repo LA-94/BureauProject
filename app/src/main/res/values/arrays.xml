@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>@string/keys</item>
+        <item>@string/wallets</item>
+        <item>@string/bank_card</item>
+        <item>@string/documents</item>
+        <item>@string/books</item>
+        <item>@string/electronics</item>
+        <item>@string/bags</item>
+        <item>@string/clothes</item>
+        <item>@string/accessories</item>
+        <item>@string/animals</item>
+        <item>@string/baby_stuff</item>
+        <item>@string/musical_instruments</item>
+    </string-array>
+</resources>

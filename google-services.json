@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1051496274306",
+    "firebase_url": "https://bureau-a6cdf.firebaseio.com",
+    "project_id": "bureau-a6cdf",
+    "storage_bucket": "bureau-a6cdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051496274306:android:88d48c480cb1c467",
+        "android_client_info": {
+          "package_name": "la.com.github.bureau"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051496274306-dsumg7cceb49d58c0e19behf51d5b5ud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "la.com.github.bureau",
+            "certificate_hash": "9c799d37f5019feb34a1982191990823b0bd004a"
+          }
+        },
+        {
+          "client_id": "1051496274306-bk3te1jtgq5e6ustl9kuqvntecalr6e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAASL_iTw73aRWjJ8jWEbaBAJbSlgjtCw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051496274306-bk3te1jtgq5e6ustl9kuqvntecalr6e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

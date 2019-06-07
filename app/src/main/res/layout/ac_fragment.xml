@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        style="@style/ToolbarStyle"
+        android:elevation="24dp"
+        >
+
+        <TextView
+            style="@style/HeaderStyle"
+            android:textColor="@color/colorOcean" />
+
+        <ImageView style="@style/LogoHeaderStyle" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_adds_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_menu_linear_layout"
+        android:layout_below="@id/toolbar">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/main_menu_linear_layout"
+        style="@style/MenuStyle"
+        android:elevation="48dp"
+        >
+
+
+        <ImageButton
+            android:id="@+id/search_btn"
+            android:onClick="onSearchBtnClick"
+            style="@style/MenuButtonStyle"
+            android:src="@drawable/ic_search" />
+
+        <ImageButton
+            android:id="@+id/my_ads_btn"
+            android:onClick="onMyAdsBtnClick"
+            style="@style/MenuButtonStyle"
+            android:src="@drawable/ic_my_ads" />
+
+        <ImageButton
+            android:id="@+id/add_ad_btn"
+            android:onClick="onAddAdBtnClick"
+            style="@style/MenuButtonStyle"
+            android:src="@drawable/ic_add_ad" />
+
+        <ImageButton
+            android:id="@+id/message_btn"
+            style="@style/MenuButtonStyle"
+            android:onClick="onMessageBtnClick"
+            android:src="@drawable/ic_message" />
+
+        <ImageButton
+            android:id="@+id/profile_btn"
+            android:onClick="onProfileBtnClick"
+            style="@style/MenuButtonStyle"
+            android:src="@drawable/ic_account" />
+
+    </LinearLayout>
+
+</RelativeLayout>

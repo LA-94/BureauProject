@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_filter_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorMainBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/category_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:background="@drawable/field_item">
+
+                <ImageView
+                    android:id="@+id/category_image"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/offsetDimen"
+                    android:src="@drawable/ic_all_category" />
+
+
+                <TextView
+                    android:id="@+id/info_category_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/offsetDimen"
+                    android:layout_marginTop="@dimen/smallOffsetDimen"
+                    android:layout_marginBottom="@dimen/smallOffsetDimen"
+
+                    android:layout_toEndOf="@id/category_image"
+
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:orientation="vertical"
+                    android:text="@string/all_category"
+                    android:textColor="@color/colorItemText"
+                    android:textSize="@dimen/textDefaultDimen" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/offsetDimen"
+                    android:src="@drawable/ic_more_category" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:background="@drawable/field_item">
+
+                <ImageView
+                    android:id="@+id/location_image"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/offsetDimen"
+                    android:src="@drawable/ic_location" />
+
+                <TextView
+                    android:id="@+id/info_location_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/offsetDimen"
+                    android:layout_marginTop="@dimen/smallOffsetDimen"
+                    android:layout_marginBottom="@dimen/smallOffsetDimen"
+                    android:layout_toEndOf="@id/location_image"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:orientation="vertical"
+                    android:text="@string/userLocationString"
+                    android:textColor="@color/colorItemText"
+                    android:textSize="@dimen/textDefaultDimen" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/offsetDimen"
+                    android:src="@drawable/ic_more_category" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/radius_search_RL"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:background="@drawable/field_item">
+
+                <ImageView
+                    android:id="@+id/radius_search_image"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/offsetDimen"
+                    android:src="@drawable/ic_radius_search" />
+
+                <TextView
+                    android:id="@+id/info_radius_search_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/offsetDimen"
+                    android:layout_marginTop="@dimen/smallOffsetDimen"
+                    android:layout_marginBottom="@dimen/smallOffsetDimen"
+                    android:layout_toEndOf="@id/radius_search_image"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:orientation="vertical"
+                    android:text="@string/radius_20km"
+                    android:textColor="@color/colorItemText"
+                    android:textSize="@dimen/textDefaultDimen" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/offsetDimen"
+                    android:src="@drawable/ic_more_category" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/published_RL"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:background="@drawable/field_item">
+
+                <ImageView
+                    android:id="@+id/published_image"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/offsetDimen"
+                    android:src="@drawable/ic_published" />
+
+                <TextView
+                    android:id="@+id/info_published_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/offsetDimen"
+                    android:layout_marginTop="@dimen/smallOffsetDimen"
+                    android:layout_marginBottom="@dimen/smallOffsetDimen"
+                    android:layout_toEndOf="@id/published_image"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:orientation="vertical"
+                    android:text="@string/published_for_all_time"
+                    android:textColor="@color/colorItemText"
+                    android:textSize="@dimen/textDefaultDimen" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/offsetDimen"
+                    android:src="@drawable/ic_more_category" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sort_RL"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/filterItemDimen"
+                android:layout_marginStart="@dimen/offsetDimen"
+                android:layout_marginTop="@dimen/offsetDimen"
+                android:layout_marginEnd="@dimen/offsetDimen"
+                android:background="@drawable/field_item">
+
+                <ImageView
+                    android:id="@+id/sort_image"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/offsetDimen"
+                    android:src="@drawable/ic_sort" />
+
+                <TextView
+                    android:id="@+id/sort_by_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/offsetDimen"
+                    android:layout_marginTop="@dimen/smallOffsetDimen"
+                    android:layout_marginBottom="@dimen/smallOffsetDimen"
+                    android:layout_toEndOf="@id/sort_image"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:orientation="vertical"
+                    android:text="@string/sort_by_publication_date"
+                    android:textColor="@color/colorItemText"
+                    android:textSize="@dimen/textDefaultDimen" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/offsetDimen"
+                    android:src="@drawable/ic_more_category" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/check_btn"
+        style="@style/ExpressButtonStyle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_check" />
+
+
+    <ImageButton
+        android:id="@+id/refresh_btn"
+        style="@style/ExpressButtonStyle"
+        android:layout_above="@id/check_btn"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_refresh" />
+
+</RelativeLayout>

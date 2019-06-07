@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextView.PrimaryText">
+        <item name="android:layout_marginTop">@dimen/offsetDimen</item>
+        <item name="android:textAppearance">@style/PrimaryText</item>
+    </style>
+
+    <style name="TextView.Title">
+        <item name="android:layout_marginTop">@dimen/offsetDimen</item>
+        <item name="android:textAppearance">@style/TitleText</item>
+    </style>
+
+    <style name="TextView.DefaultText">
+        <item name="android:textSize">@dimen/textPrimaryDimen</item>
+        <item name="android:textColor">@color/colorDefaultText</item>
+    </style>
+
+    <style name="primary_image">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">@dimen/smallImageDimen</item>
+        <item name="android:layout_height">@dimen/smallImageDimen</item>
+    </style>
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorOcean</item>
+    </style>
+</resources>

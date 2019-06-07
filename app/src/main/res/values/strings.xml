@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Bureau</string>
+    <string name="returning">Returning</string>
+    <string name="returned">Returned</string>
+    <string name="registration_date">Registration date:</string>
+    <string name="name">Name</string>
+    <string name="city">City</string>
+    <string name="registered_date">30 Sep 2017</string>
+    <string name="found">Found:</string>
+    <string name="nameHint">Name</string>
+    <string name="loginHint">Login</string>
+    <string name="passwordHint">Password</string>
+    <string name="done">Done</string>
+    <string name="registration">Sign up</string>
+    <string name="refresh">Update</string>
+    <string name="disconnectedString">Check your Internet connection and click Update</string>
+    <string name="authorization">Authorization</string>
+    <string name="sign_in">Sign in</string>
+    <string name="errorAuthorization">Invalid username or password</string>
+    <string name="errorRegistrationString">A userId with this login already exists</string>
+    <string name="all_category">All categories</string>
+    <string name="userLocationString">Moscow</string>
+    <string name="radius_5km">5 km</string>
+    <string name="sort_by_publication_date">by publication date</string>
+    <string name="sort_by_date_of_discovery">by date of discovery</string>
+    <string name="sloganFindString">Easy to find</string>
+    <string name="sloganReturnString">Easy to return</string>
+    <string name="validIncorrectLoginLengthString">Incorrect login\n
+        Sorry, login must be between 4 and 31 characters</string>
+    <string name="validIncorrectLoginSymbolString">Incorrect login\n
+        It is allowed to use only Latin letters, numbers, underscore
+        ("_"), period ("."), minus ("-")</string>
+    <string name="radius_500m">500 m</string>
+    <string name="radius_1km">1 km</string>
+    <string name="radius_3km">3 km</string>
+    <string name="radius_10km">10 km</string>
+    <string name="radius_15km">15 km</string>
+    <string name="radius_20km">20 km</string>
+    <string name="published_for_all_time">for all time</string>
+    <string name="published_in_1_hour">in 1 hour</string>
+    <string name="published_in_12_hours">in 12 hours</string>
+    <string name="published_in_24_hours">in 24 hours</string>
+    <string name="published_in_3_days">in 3 days</string>
+    <string name="published_in_7_days">in 7 days</string>
+    <string name="sort_by_distance">by distance</string>
+
+    <string name="ad_title_hint">Enter your ad title</string>
+    <string name="ad_title_label">Title</string>
+    <string name="ad_details_label">Details</string>
+    <string name="published_title">Published</string>
+
+    <string name="other_category">Other</string>
+    <string name="category_title">Category</string>
+
+    <string name="enter_the_title">Click to enter the title</string>
+    <string name="enter_the_date_of_the_find">Click to enter the date of the find</string>
+    <string name="select_category">Click to select a category</string>
+    <string name="select_location_of_find">Click to select the location of the item</string>
+    <string name="describe_the_found_thing">Click to describe the found thing</string>
+    <string name="published_button">Publish</string>
+
+    <string name="discovery_date">Item discovery date:</string>
+    <string name="choice_category">The choice of category:</string>
+    <string name="reason_remove_ad">The reason for removing the ad:</string>
+    <string name="new_ad">New ad</string>
+
+    <string name="keys">Keys</string>
+    <string name="wallets">Wallets</string>
+    <string name="bank_card">Bank cards</string>
+    <string name="documents">Documents</string>
+    <string name="books">Books</string>
+    <string name="electronics">Electronics</string>
+    <string name="bags">Bags</string>
+    <string name="clothes">Clothes</string>
+    <string name="accessories">Accessories</string>
+    <string name="animals">Animals</string>
+    <string name="baby_stuff">Baby stuff</string>
+    <string name="musical_instruments">Musical instruments</string>
+    <string name="other">Others</string>
+
+    <string name="sign_out">Sign out</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="save_it">Save the changes</string>
+    <string name="remove_ad">Remove the ad from publication</string>
+    <string name="item_returned_to_owner">Item returned to owner</string>
+    <string name="another_reason">Another reason</string>
+    <string name="telephone_number">Phone number:</string>
+</resources>

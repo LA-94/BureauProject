@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Бюро</string>
+    <string name="returning">Возвращаю</string>
+    <string name="returned">Возвращено</string>
+    <string name="registration_date">Дата регистрации:</string>
+    <string name="name">Имя</string>
+    <string name="city">Город</string>
+    <string name="registered_date">30 сен 2017</string>
+    <string name="found">Найдено:</string>
+    <string name="nameHint">Имя</string>
+    <string name="loginHint">Логин</string>
+    <string name="passwordHint">Пароль</string>
+    <string name="done">Готово</string>
+    <string name="registration">Регистрация</string>
+    <string name="refresh">Обновить</string>
+    <string name="disconnectedString">Проверьте Ваше интернет подключение и нажмите Обновить</string>
+    <string name="authorization">Авторизация</string>
+    <string name="sign_in">Войти</string>
+    <string name="errorAuthorization">Неверное имя или пароль</string>
+    <string name="errorRegistrationString">Пользователь с таким логином уже существует</string>
+    <string name="userLocationString">Москва</string>
+
+
+    <string name="sloganFindString">Просто найти</string>
+    <string name="sloganReturnString">Легко вернуть</string>
+
+    <string name="validIncorrectLoginLengthString">Некорректный логин.\n
+        Извините, логин должен быть длиной от 4 до 31 символов</string>
+    <string name="validIncorrectLoginSymbolString">Некорректный логин.\n
+        Допустимо использовать только латинские буквы, цифры, знак
+        подчеркивания («_»), точку («.»), минус («-»)</string>
+
+    <string name="radius_500m">500 м</string>
+    <string name="radius_1km">1 км</string>
+    <string name="radius_3km">3 км</string>
+    <string name="radius_5km">5 км</string>
+    <string name="radius_10km">10 км</string>
+    <string name="radius_15km">15 км</string>
+    <string name="radius_20km">20 км</string>
+
+    <string name="published_in_1_hour">за 1 час</string>
+    <string name="published_in_12_hours">за 12 часов</string>
+    <string name="published_in_24_hours">за 24 часов</string>
+    <string name="published_in_3_days">за 3 дня</string>
+    <string name="published_in_7_days">за 7 дней</string>
+    <string name="published_for_all_time">за все время</string>
+
+    <string name="sort_by_publication_date">по дате публикации</string>
+    <string name="sort_by_date_of_discovery">по дате обнаружения</string>
+    <string name="sort_by_distance">по удаленности</string>
+
+    <string name="ad_title_hint">Введите заголовок объявления</string>
+    <string name="ad_title_label">Заголовок</string>
+    <string name="ad_details_label">Описание</string>
+    <string name="published_title">Опубликовано</string>
+
+    <string name="all_category">Все объявления</string>
+    <string name="other_category">Другое</string>
+    <string name="category_title">Категория</string>
+
+
+    <string name="enter_the_title">Нажмите, чтобы ввести название</string>
+    <string name="enter_the_date_of_the_find">Нажмите, чтобы ввести дату находки</string>
+    <string name="select_category">Нажмите, чтобы выбрать категорию</string>
+    <string name="select_location_of_find">Нажмите, чтобы выбрать место обнаружения вещи</string>
+    <string name="describe_the_found_thing">Нажмите, чтобы описать найденную вещь</string>
+    <string name="published_button">Опубликовать</string>
+
+    <string name="discovery_date">Дата обнаружения вещи:</string>
+    <string name="choice_category">Выбор категории:</string>
+    <string name="new_ad">Новое объявление</string>
+
+
+    <string name="keys">Ключи</string>
+    <string name="wallets">Бумажники</string>
+    <string name="bank_card">Платежные карты</string>
+    <string name="documents">Документы</string>
+    <string name="books">Книги</string>
+    <string name="electronics">Электроника</string>
+    <string name="bags">Сумки</string>
+    <string name="clothes">Одежда</string>
+    <string name="accessories">Аксессуары</string>
+    <string name="animals">Животные</string>
+    <string name="baby_stuff">Детские вещи</string>
+    <string name="musical_instruments">Музыкальные интсрументы</string>
+    <string name="other">Другое</string>
+    <string name="sign_out">Выйти</string>
+    <string name="save_it">Сохранить изменения</string>
+    <string name="remove_ad">Удалить объявление из публикации</string>
+    <string name="item_returned_to_owner">Вещь возвращена владельцу</string>
+    <string name="another_reason">Другая причина</string>
+    <string name="reason_remove_ad">Причина снятия объявления:</string>
+    <string name="telephone_number">Телефонный номер:</string>
+
+</resources>

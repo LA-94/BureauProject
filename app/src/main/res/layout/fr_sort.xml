@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground">
+    <RadioGroup
+        android:id="@+id/sort_by_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/sort_by_publication_date_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/filterItemDimen"
+            android:layout_marginStart="@dimen/offsetDimen"
+            android:layout_marginTop="@dimen/offsetDimen"
+            android:layout_marginEnd="@dimen/offsetDimen"
+            android:layout_marginBottom="@dimen/offsetDimen"
+            android:background="@drawable/field_item"
+            android:checked="true"
+            android:text="@string/sort_by_publication_date"
+            android:textColor="@color/colorItemText"
+            android:textSize="@dimen/textDefaultDimen" />
+
+        <RadioButton
+            android:id="@+id/sort_by_date_of_discovery_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/filterItemDimen"
+            android:layout_marginStart="@dimen/offsetDimen"
+            android:layout_marginTop="@dimen/offsetDimen"
+            android:layout_marginEnd="@dimen/offsetDimen"
+            android:layout_marginBottom="@dimen/offsetDimen"
+            android:background="@drawable/field_item"
+            android:text="@string/sort_by_date_of_discovery"
+            android:textColor="@color/colorItemText"
+            android:textSize="@dimen/textDefaultDimen" />
+
+        <RadioButton
+            android:id="@+id/sort_by_distance_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/filterItemDimen"
+            android:layout_marginStart="@dimen/offsetDimen"
+            android:layout_marginTop="@dimen/offsetDimen"
+            android:layout_marginEnd="@dimen/offsetDimen"
+            android:layout_marginBottom="@dimen/offsetDimen"
+            android:background="@drawable/field_item"
+            android:text="@string/sort_by_distance"
+            android:textColor="@color/colorItemText"
+            android:textSize="@dimen/textDefaultDimen" />
+
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/check_btn"
+        style="@style/ExpressButtonStyle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_check" />
+
+
+</RelativeLayout>

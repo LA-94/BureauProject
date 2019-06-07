@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        style="@style/ActionLayoutStyle"
+        android:layout_marginBottom="100dp">
+
+        <TextView
+            style="@style/TitleStyle"
+            android:text="@string/authorization" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/largeOffsetDimen"
+            android:src="@drawable/ic_authorization" />
+
+        <EditText
+            android:id="@+id/login_et"
+            style="@style/EditTextR"
+            android:hint="@string/loginHint" />
+
+        <EditText
+            android:id="@+id/password_et"
+            style="@style/EditTextR"
+            android:hint="@string/passwordHint"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/sign_in_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="@dimen/largeOffsetDimen"
+            android:layout_marginBottom="@dimen/offsetDimen"
+            android:text="@string/sign_in" />
+
+        <Button
+            android:id="@+id/sign_up_btn"
+            style="@style/ButtonStyle"
+            android:layout_marginBottom="@dimen/lastItemScrollingDimen"
+            android:text="@string/registration" />
+
+    </LinearLayout>
+</ScrollView>
+
